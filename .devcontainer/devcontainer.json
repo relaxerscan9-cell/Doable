@@ -46,14 +46,9 @@
       }
     }
   },
-  "hostRequirements": {
-    "cpus": 4,
-    "memory": "16gb",
-    "storage": "32gb"
-  },
-  "remoteUser": "node",
+  "remoteUser": "vscode",
   "containerEnv": {
-    "PNPM_HOME": "/home/node/.local/share/pnpm",
+    "PNPM_HOME": "/home/vscode/.local/share/pnpm",
     "PATH": "${PNPM_HOME}:${PATH}"
   }
 }
